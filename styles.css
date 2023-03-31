@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* FONTS AND COLORS */
+
+* {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+
+header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* section 1 */
+
+.hero,
+footer {
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero p,
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* section 2 */
+
+section {
+    background-color: #F9FAF8; 
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+/* article */
+
+article {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937
+}
+
+.recruit,
+button {
+    background-color: #3882F6;
+}
