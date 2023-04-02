@@ -47,6 +47,14 @@ header h1 {
     min-width: 10rem;
 }
 
+.header-links a {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #d9dbdd;
+    text-decoration: none;
+}
+
+
 /* section 1 */
 
 .hero {
