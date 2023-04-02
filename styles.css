@@ -80,11 +80,36 @@ header h1 {
 
 /* section 2 */
 
-section {
+.profiles-container {
     background-color: #F9FAF8; 
     font-size: 3rem;
     font-weight: bolder;
     color: #1F2937;
+
+    padding: 50px;
+    text-align: center;
+}
+
+.profiles {
+    font-weight: lighter;
+    font-size: 1.5rem;
+
+    display: flex;
+}
+
+.profile {
+    max-width: 25rem;
+    margin: 0 3rem;
+    margin-right: 0;
+}
+
+.profile:last-child {
+    margin-right: 3rem;
+}
+
+.profile img {
+    border: 0.4rem solid #1F2937;
+    border-radius: 2rem;
 }
 
 /* article */
