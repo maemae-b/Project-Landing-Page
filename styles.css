@@ -6,6 +6,13 @@
 
 body {
     margin: 0;
+    background-color: #1F2937;
+}
+
+.page-container {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* header */
@@ -16,7 +23,7 @@ header {
 
     display: flex;
     margin: 0;
-    padding: 10px 100px;
+    padding: 10px 50px;
     min-width: 1024px;
 }
 
