@@ -47,7 +47,7 @@ header h1 {
     min-width: 10rem;
 }
 
-.header-links a {
+.header-links #hyperlink-override {
     font-size: 1.7rem;
     font-weight: 400;
     color: #d9dbdd;
