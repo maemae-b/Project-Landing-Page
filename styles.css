@@ -156,9 +156,44 @@ article {
     text-align: end;
 }
 
-.recruit,
-button {
+.recruit-container {
+    background-color: #F9FAF8;
+    color: #F9FAF8;
+
+    padding: 8rem 8rem;
+}
+
+.recruit1 {
     background-color: #3882F6;
+
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem;
+    border-radius: 0.8rem;
+}
+
+.recruit2 {
+    flex: 2;
+    margin-left: 7rem;
+}
+
+.recruit1 button {
+    border: 0.3rem solid #F9FAF8;
+    
+    margin-right: 7rem;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+    
 }
 
 img {
