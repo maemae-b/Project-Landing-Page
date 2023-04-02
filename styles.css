@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
-    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -28,7 +28,7 @@ header {
 
 header h1 {
     font-size: 2rem;
-    font-weight: bolder;
+    font-weight: 700;
     color: #F9FAF8;
 
     flex: 1;
@@ -41,7 +41,7 @@ header h1 {
 
 .header-links h1 {
     font-size: 1.7rem;
-    font-weight: lighter;
+    font-weight: 400;
     color: #E5E7EB;
 
     min-width: 10rem;
@@ -100,7 +100,7 @@ header h1 {
     font-weight: bolder;
     color: #1F2937;
 
-    padding: 50px;
+    padding: 4.5rem;
     text-align: center;
 }
 
@@ -109,7 +109,8 @@ header h1 {
 }
 
 .profiles {
-    font-weight: lighter;
+    color:#505c6d;
+    font-weight: 400;
     font-size: 1.5rem;
 
     display: flex;
@@ -139,9 +140,20 @@ header h1 {
 article {
     background-color: #E5E7EB;
     font-size: 3rem;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    padding: 4.5rem;
+}
+
+.quoter {
+    font-weight: bold;
+    font-style: normal;
+    text-align: end;
 }
 
 .recruit,
