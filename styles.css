@@ -10,7 +10,7 @@ body {
 }
 
 .page-container {
-    max-width: 80rem;
+    max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 2rem;
     color: #F9FAF8;
 
     flex: 1;
@@ -45,15 +45,25 @@ header h1 {
 
 /* section 1 */
 
-.hero,
-footer {
+.hero {
     background-color: #1F2937;
+
+    padding: 50px;
+    display: flex;
+}
+
+.hero div {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+    margin-right: 10px;
+    flex: 1;
 }
 
 .hero h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .hero p {
@@ -61,11 +71,18 @@ footer {
     color: #E5E7EB;
 }
 
+.hero img {
+    margin-right: 10px;
+    flex: 1;
+    width: 50%;
+    height: auto;
+}
+
 /* section 2 */
 
 section {
     background-color: #F9FAF8; 
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: bolder;
     color: #1F2937;
 }
@@ -74,7 +91,7 @@ section {
 
 article {
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: light;
     font-style: italic;
     color: #1F2937
