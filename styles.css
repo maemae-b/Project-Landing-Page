@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    background-color: #1F2937;
+    background-color: #28251f;
 }
 
 .page-container {
@@ -18,7 +18,7 @@ body {
 /* header */
 
 header {
-    background-color: #1F2937;
+    background-color: #28251f;
 
     display: flex;
     margin: 0;
@@ -42,7 +42,7 @@ header h1 {
 .header-links h1 {
     font-size: 1.7rem;
     font-weight: 400;
-    color: #E5E7EB;
+    color: #d9dbdd;
 
     min-width: 10rem;
 }
@@ -50,7 +50,7 @@ header h1 {
 /* section 1 */
 
 .hero {
-    background-color: #1F2937;
+    background-color: #28251f;
 
     padding: 8rem 4rem;
     display: flex;
@@ -77,7 +77,7 @@ header h1 {
 .hero p {
     font-size: 1.5rem;
     font-weight: lighter;
-    color: #E5E7EB;
+    color: #d9dbdd;
 }
 
 .hero img {
@@ -98,7 +98,7 @@ header h1 {
     background-color: #F9FAF8; 
     font-size: 2.5rem;
     font-weight: bolder;
-    color: #1F2937;
+    color: #28251f;
 
     padding: 4.5rem;
     text-align: center;
@@ -109,7 +109,7 @@ header h1 {
 }
 
 .profiles {
-    color:#505c6d;
+    color:#5d504e;
     font-weight: 400;
     font-size: 1.5rem;
 
@@ -127,7 +127,7 @@ header h1 {
 }
 
 .profile img {
-    border: 0.4rem solid #1F2937;
+    border: 0.4rem solid #464b2a;
     border-radius: 2rem;
 }
 
@@ -138,11 +138,11 @@ header h1 {
 /* article */
 
 article {
-    background-color: #E5E7EB;
+    background-color: #d9dbdd;
     font-size: 3rem;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
+    color: #28251f;
 
     margin-top: 0;
     margin-bottom: 0;
@@ -164,7 +164,7 @@ article {
 }
 
 .recruit1 {
-    background-color: #3882F6;
+    background-color: #bd6124;
 
     display: flex;
     align-items: center;
@@ -186,7 +186,7 @@ article {
 button {
     font-size: 1.5rem;
     font-weight: 500;
-    background-color: #3882F6;
+    background-color: #bd6124;
     color: #F9FAF8;
     text-align: center;
 
