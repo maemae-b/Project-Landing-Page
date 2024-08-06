@@ -2,11 +2,18 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+
+    --darkbrown: #28251f;
+    --brown: #5d504e;
+    --orange: #bd6124;
+    --darkgreen: #464b2a;
+    --lightgrey: #d9dbdd;
+    --offwhite: #F9FAF8;
 }
 
 body {
     margin: 0;
-    background-color: #28251f;
+    background-color: var(--darkbrown);
 }
 
 .page-container {
@@ -18,7 +25,7 @@ body {
 /* header */
 
 header {
-    background-color: #28251f;
+    background-color: var(--darkbrown);
 
     display: flex;
     margin: 0;
@@ -29,7 +36,7 @@ header {
 header h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: #F9FAF8;
+    color: var(--offwhite);
 
     flex: 1;
 }
@@ -42,7 +49,7 @@ header h1 {
 .header-links h1 {
     font-size: 1.7rem;
     font-weight: 400;
-    color: #d9dbdd;
+    color: var(--lightgrey);
 
     min-width: 10rem;
 }
@@ -50,7 +57,7 @@ header h1 {
 .header-links #hyperlink-override {
     font-size: 1.7rem;
     font-weight: 400;
-    color: #d9dbdd;
+    color: var(--lightgrey);
     text-decoration: none;
 }
 
@@ -58,7 +65,7 @@ header h1 {
 /* section 1 */
 
 .hero {
-    background-color: #28251f;
+    background-color: var(--darkbrown);
 
     padding: 8rem 4rem;
     display: flex;
@@ -67,7 +74,7 @@ header h1 {
 .hero div {
     font-size: 3rem;
     font-weight: bolder;
-    color: #F9FAF8;
+    color: var(--offwhite);
 
     margin-right: 2rem;
     flex: 1;
@@ -85,7 +92,7 @@ header h1 {
 .hero p {
     font-size: 1.5rem;
     font-weight: lighter;
-    color: #d9dbdd;
+    color: var(--lightgrey);
 }
 
 .hero img {
@@ -103,10 +110,10 @@ header h1 {
 /* section 2 */
 
 .profiles-container {
-    background-color: #F9FAF8; 
+    background-color: var(--offwhite); 
     font-size: 2.5rem;
     font-weight: bolder;
-    color: #28251f;
+    color: var(--darkbrown);
 
     padding: 4.5rem;
     text-align: center;
@@ -117,7 +124,7 @@ header h1 {
 }
 
 .profiles {
-    color:#5d504e;
+    color: var(--brown);
     font-weight: 400;
     font-size: 1.5rem;
 
@@ -135,7 +142,7 @@ header h1 {
 }
 
 .profile img {
-    border: 0.4rem solid #464b2a;
+    border: 0.4rem solid var(--darkgreen);
     border-radius: 2rem;
 }
 
@@ -146,11 +153,11 @@ header h1 {
 /* article */
 
 article {
-    background-color: #d9dbdd;
+    background-color: var(--lightgrey);
     font-size: 3rem;
     font-weight: 300;
     font-style: italic;
-    color: #28251f;
+    color: var(--darkbrown);
 
     margin-top: 0;
     margin-bottom: 0;
@@ -165,14 +172,14 @@ article {
 }
 
 .recruit-container {
-    background-color: #F9FAF8;
-    color: #F9FAF8;
+    background-color: var(--offwhite);
+    color: var(--offwhite);
 
     padding: 8rem 8rem;
 }
 
 .recruit1 {
-    background-color: #bd6124;
+    background-color: var(--orange);
 
     display: flex;
     align-items: center;
@@ -186,7 +193,7 @@ article {
 }
 
 .recruit1 button {
-    border: 0.3rem solid #F9FAF8;
+    border: 0.3rem solid var(--offwhite);
     
     margin-right: 7rem;
 }
@@ -194,8 +201,8 @@ article {
 button {
     font-size: 1.5rem;
     font-weight: 500;
-    background-color: #bd6124;
-    color: #F9FAF8;
+    background-color: var(--orange);
+    color: var(--offwhite);
     text-align: center;
 
     width: 10rem;
@@ -204,7 +211,7 @@ button {
 }
 
 footer {
-    color: #F9FAF8;
+    color: var(--offwhite);
 
     text-align: center;
     padding: 2rem 2rem;
@@ -213,5 +220,3 @@ footer {
 img {
     width: 200px;
 }
-
-
