@@ -63,15 +63,17 @@ header > h1 {
 }
 
 .header-links h1 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 400;
     color: var(--lightgrey);
 
-    min-width: 10rem;
+    text-align: center;
+
+    flex: auto;
 }
 
 .header-links #hyperlink-override {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 400;
     color: var(--lightgrey);
     text-decoration: none;
