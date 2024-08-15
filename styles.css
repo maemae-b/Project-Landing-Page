@@ -62,23 +62,17 @@ header > h1 {
     align-items: center;
 }
 
-.header-links h1 {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: var(--lightgrey);
-
-    text-align: center;
-
-    flex: auto;
-}
-
-.header-links #hyperlink-override {
+.header-links a {
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--lightgrey);
     text-decoration: none;
-}
 
+    text-align: center;
+    padding: 1.5rem 1rem;
+
+    flex: auto;
+}
 
 /* section 1 */
 
