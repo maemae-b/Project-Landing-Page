@@ -225,6 +225,9 @@ button {
     width: 10rem;
     height: 3rem;
     border-radius: 0.7rem;
+    
+    border: none;
+    cursor: pointer;
 }
 
 button:hover {
