@@ -74,6 +74,11 @@ header > h1 {
     flex: auto;
 }
 
+.header-links a:hover {
+    background-color: var(--brown);
+    color: var(--darkbrown);
+}
+
 /* section 1 */
 
 .hero {
