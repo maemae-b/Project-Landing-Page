@@ -227,6 +227,11 @@ button {
     border-radius: 0.7rem;
 }
 
+button:hover {
+    background-color: var(--offwhite);
+    color: var(--darkbrown);
+}
+
 footer {
     color: var(--offwhite);
 
