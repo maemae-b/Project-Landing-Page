@@ -206,17 +206,23 @@ header > h1 {
 
 /* article */
 
-article {
+.quote {
     background-color: var(--lightgrey);
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 3vw, 3rem);
     font-weight: 300;
     font-style: italic;
     color: var(--darkbrown);
+    text-align: center;
 
     margin-top: 0;
     margin-bottom: 0;
 
-    padding: 4.5rem;
+    padding: 3.5rem;
+}
+
+.quote p {
+    margin: 0 auto;
+    max-width: 50ch;
 }
 
 .quoter {
