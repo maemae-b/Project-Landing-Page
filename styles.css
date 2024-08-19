@@ -37,10 +37,6 @@ header {
     top: 0;
     width: 100%;
 
-    display: flex;
-    margin: 0;
-    justify-content: space-between;
-
     padding: 1rem 2.5rem;
 
     border-bottom: 5px solid var(--brown);
@@ -51,7 +47,7 @@ header > h1 {
     font-weight: 700;
     color: var(--offwhite);
 
-    flex: 1 1 50vw;
+    text-align: center;
 }
 
 .header-links {
@@ -64,7 +60,7 @@ header > h1 {
 }
 
 .header-links a {
-    font-size: 1.6rem;
+    font-size: clamp(1.3rem, 1.6vw, 1.6rem);
     font-weight: 400;
     color: var(--lightgrey);
     text-decoration: none;
@@ -78,6 +74,20 @@ header > h1 {
 .header-links a:hover {
     background-color: var(--brown);
     color: var(--darkbrown);
+}
+
+@media (min-width: calc((949/16)*1rem)) {
+    header {
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    header > h1 {
+        flex: 1 1 50vw;
+
+        text-align: start;
+    }
 }
 
 /* section 1 */
