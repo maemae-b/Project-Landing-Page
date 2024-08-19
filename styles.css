@@ -235,27 +235,62 @@ header > h1 {
     background-color: var(--offwhite);
     color: var(--offwhite);
 
-    padding: 8rem 8rem;
+    padding: 4rem;
 }
 
 .recruit1 {
     background-color: var(--orange);
-
-    display: flex;
-    align-items: center;
-    padding: 2rem 2rem;
     border-radius: 0.8rem;
+    text-align: center;
+
+    max-width: 70vw;
+    padding: 3rem;
+    margin: 0 auto;
 }
 
 .recruit2 {
-    flex: 2;
-    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+
+.recruit2 h1 {
+    margin-bottom: 0.5rem;
+}
+
+.recruit2 p {
+    margin-top: 0.5rem;
 }
 
 .recruit1 button {
     border: 0.3rem solid var(--offwhite);
     
-    margin-right: 7rem;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: calc((900/16)*1rem)) {
+    .recruit-container {
+        padding: 8rem;
+    }
+
+    .recruit1 {
+        text-align: start;
+
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3rem clamp(4rem, 4vw, 10rem);
+    }
+
+    .recruit2 {
+        flex: 1 1 1;
+        margin-bottom: 0;
+    }
+
+    .recruit1 button {
+        flex: 1 1 1;
+        margin: 0;
+    }
 }
 
 button {
