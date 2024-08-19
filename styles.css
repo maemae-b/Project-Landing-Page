@@ -96,20 +96,12 @@ header > h1 {
     background-color: var(--darkbrown);
 
     padding: 4rem;
-    display: flex;
 }
 
 .hero div {
-    font-size: 3rem;
+    font-size: clamp(2.5rem, 3vw, 3rem);
     font-weight: bolder;
     color: var(--offwhite);
-
-    margin-right: 2rem;
-    flex: 1;
-
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 1rem;
 }
 
 .hero h1 {
@@ -124,6 +116,29 @@ header > h1 {
 }
 
 .hero img {
+    display: block;
+    overflow: scroll;
+
+    margin: 3rem auto;
+}
+
+@media (min-width: calc((900/16)*1rem)) {
+    .hero {
+        padding: 6rem 7rem;
+        display: flex;
+    }
+
+    .hero div {
+        flex: 1;
+        margin-right: 2rem;
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 1rem;
+    }
+
+    .hero img {
+        margin: 0;
     margin-right: 10px;
     flex: 1;
     min-width: 50%;
@@ -133,6 +148,7 @@ header > h1 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
+    }
 }
 
 /* section 2 */
