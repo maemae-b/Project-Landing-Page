@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Brigade Application</title>
+
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <div class="notice">
+        <h1>So you want to be part of the cause, huh.</h1>
+        <h3>kindly fill in the following form.</h3>        
+        <p>dis is to improve your experience as a future member :3</p>
+    </div>
+    <form action="./form-results.js" method="post">
+        <div>
+            <label for="nickname">Nickname:</label>
+            <input type="text" id="nickname" name="nickname" placeholder="Mingming">
+        </div>
+        
+        <div>
+            <label for="dob">Bday:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+    
+        <fieldset>
+            <legend>MBTI:</legend>
+
+            <select name="mbti" id="mbti">
+                <optgroup label="Introverts">
+                    <option value="INFP">INFP</option>
+                    <option value="ISFP">ISFP</option>
+                    <option value="INTP">INTP</option>
+                    <option value="ISTP">ISTP</option>
+                    <option value="INFJ">INFJ</option>
+                    <option value="ISFJ">ISFJ</option>
+                    <option value="INTJ">INTJ</option>
+                    <option value="ISTJ">ISTJ</option>
+                </optgroup>
+                <optgroup label="Extroverts">
+                    <option value="ENFP">ENFP</option>
+                    <option value="ESFP">ESFP</option>
+                    <option value="ENTP">ENTP</option>
+                    <option value="ESTP">ESTP</option>
+                    <option value="ENFJ">ENFJ</option>
+                    <option value="ESFJ">ESFJ</option>
+                    <option value="ENTJ">ENTJ</option>
+                    <option value="ESTJ">ESTJ</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Fur Color:</legend>
+    
+            <div>
+                <input type="checkbox" name="fur-color" id="black" value="black">
+                <label for="black">Black</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" name="fur-color" id="white" value="white">
+                <label for="white">White</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" name="fur-color" id="orange" value="orange">
+                <label for="orange">Orange</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" name="fur-color" id="yellow" value="yellow">
+                <label for="yellow">Yellow</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" name="fur-color" id="brown" value="brown">
+                <label for="brown">Brown</label>
+            </div>
+    
+            <div>
+                <input type="checkbox" name="fur-color" id="grey" value="grey">
+                <label for="grey">Grey</label>
+            </div>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Preferred Food:</legend>
+    
+            <div>
+                <input type="radio" name="food" id="frisky-bitz" value="frisky-bitz">
+                <label for="frisky-bitz">Frisky Bitz</label>
+            </div>
+    
+            <div>
+                <input type="radio" name="food" id="ritzy-bitz" value="ritzy-bitz">
+                <label for="ritzy-bitz">Ritzy Bitz</label>
+            </div>
+    
+            <div>
+                <input type="radio" name="food" id="bonito-bitz" value="bonito-bitz">
+                <label for="bonito-bitz">Bonito Bitz</label>
+            </div>
+    
+            <div>
+                <input type="radio" name="food" id="deluxe-tuna-bitz" value="deluxe-tuna-bitz">
+                <label for="deluxe-tuna-bitz">Deluxe Tuna Bitz</label>
+            </div>
+    
+            <div>
+                <input type="radio" name="food" id="sashimi" value="sashimi">
+                <label for="sashimi">Sashimi</label>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
