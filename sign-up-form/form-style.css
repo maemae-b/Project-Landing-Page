@@ -51,13 +51,34 @@ form {
 }
 
 fieldset {
-    border: none;
+    border: solid 3px var(--darkbrown);
+    border-radius: 15px;
 }
 
 .choose {
     margin-bottom: 1rem;
 }
 
+fieldset.choose > div,
+fieldset.choose > select {
+    margin-left: 1.5rem;
+}
+
 .submit {
-    margin-bottom: 0;
+    background-color: var(--orange);
+    color: var(--offwhite);
+    border: solid 3px var(--orange);
+
+    padding: 0.7rem;
+    margin: 0 auto;
+    display: block;
+
+    border: solid 3px var(--orange);
+    border-radius: 20px;
+}
+
+.submit:hover {
+    background-color: var(--offwhite);
+    color: var(--darkbrown);
+    border: solid 3px var(--orange)
 }
