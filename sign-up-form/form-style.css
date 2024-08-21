@@ -28,8 +28,9 @@ body {
     color: var(--offwhite);
     background-color: var(--darkbrown);
 
-    padding: 2rem;
-    margin: 0 auto 1.5rem;
+    padding: 4rem;
+    max-width: 100rem;
+    margin: 0 auto;
 
     text-align: center;
 }
@@ -47,21 +48,26 @@ form {
     color: var(--darkbrown);
     background-color: var(--offwhite);
 
-    padding: 2rem;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 2rem clamp(4rem, 20vw ,18rem);
 }
 
 fieldset {
     border: solid 3px var(--darkbrown);
     border-radius: 15px;
-}
 
-.choose {
-    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    
+    gap: 5px;
 }
 
 fieldset.choose > div,
 fieldset.choose > select {
-    margin-left: 1.5rem;
+    flex: 1 1 13rem;
 }
 
 .submit {
@@ -81,4 +87,8 @@ fieldset.choose > select {
     background-color: var(--offwhite);
     color: var(--darkbrown);
     border: solid 3px var(--orange)
+}
+
+.choose {
+    margin-bottom: 1rem;
 }
