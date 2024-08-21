@@ -28,8 +28,19 @@ body {
     color: var(--offwhite);
     background-color: var(--darkbrown);
 
-    padding: 1rem 2rem;
+    padding: 2rem;
     margin: 3rem auto 1.5rem;
+
+    text-align: center;
+}
+
+.notice > * {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.notice > *:last-child {
+    margin-bottom: 0;
 }
 
 form {
@@ -41,4 +52,12 @@ form {
 
 fieldset {
     border: none;
+}
+
+.choose {
+    margin-bottom: 1rem;
+}
+
+.submit {
+    margin-bottom: 0;
 }
