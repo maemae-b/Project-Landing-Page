@@ -34,8 +34,11 @@ body {
 
 form {
     color: var(--darkbrown);
-    background-color: var(--brown);
-    border: solid 5px var(--darkbrown);
+    background-color: var(--offwhite);
 
     padding: 2rem;
+}
+
+fieldset {
+    border: none;
 }
