@@ -40,7 +40,7 @@ legend {font-size: var(--small);}
     color: var(--offwhite);
     background-color: var(--darkbrown);
 
-    padding: 4rem;
+    padding: 3rem;
     max-width: min(80rem, 80vw);
     margin: 0 auto;
 
