@@ -14,19 +14,32 @@
         <p>dis is to improve your experience as a future member :3</p>
     </div>
     <form action="./form-results.js" method="post">
-        <div class="choose">
-            <label for="nickname">
-                Nickname:<span>*</span>
-            </label>
-            <input type="text" id="nickname" name="nickname" placeholder="Mingming" required>
-        </div>
+        <fieldset class="choose">
+            <legend>Name and B-day</legend>
+            
+            <div>
+                <label for="nickname">
+                    Nickname:<span>*</span>
+                </label>
+                <input 
+                    type="text" 
+                    id="nickname" 
+                    name="nickname" 
+                    placeholder="Mingming" 
+                    minlength="3"
+                    maxlength="14"
+                    required
+                >
+            </div>
+            
+            <div>
+                <label for="dob">
+                    Bday:<span>*</span>
+                </label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+        </fieldset>
         
-        <div class="choose">
-            <label for="dob">
-                Bday:<span>*</span>
-            </label>
-            <input type="date" id="dob" name="dob" required>
-        </div>
     
         <fieldset class="choose">
             <legend>MBTI</legend>

@@ -62,7 +62,7 @@ form {
 
     max-width: min(80rem, 80vw);
     margin: 0 auto;
-    padding: 2rem clamp(4rem, 20vw ,18rem);
+    padding: 2rem clamp(2rem, 18vw ,18rem);
 }
 
 fieldset {
@@ -75,6 +75,22 @@ fieldset {
     padding: 1rem 2rem;
     
     gap: 5px;
+}
+
+fieldset:first-child {text-align: center;}
+fieldset:first-child > div > label {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+fieldset:first-child > div:first-of-type {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 1124px) {
+    fieldset:first-child > div:first-of-type {
+        margin-bottom: 0;
+    }
 }
 
 fieldset.choose > div,
