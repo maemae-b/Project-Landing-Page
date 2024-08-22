@@ -92,3 +92,10 @@ fieldset.choose > select {
 .choose {
     margin-bottom: 1rem;
 }
+
+/* Validations */
+
+label > span,
+legend > span {
+    color: red;
+}

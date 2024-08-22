@@ -15,17 +15,21 @@
     </div>
     <form action="./form-results.js" method="post">
         <div class="choose">
-            <label for="nickname">Nickname:</label>
-            <input type="text" id="nickname" name="nickname" placeholder="Mingming">
+            <label for="nickname">
+                Nickname:<span>*</span>
+            </label>
+            <input type="text" id="nickname" name="nickname" placeholder="Mingming" required>
         </div>
         
         <div class="choose">
-            <label for="dob">Bday:</label>
-            <input type="date" id="dob" name="dob">
+            <label for="dob">
+                Bday:<span>*</span>
+            </label>
+            <input type="date" id="dob" name="dob" required>
         </div>
     
         <fieldset class="choose">
-            <legend>MBTI:</legend>
+            <legend>MBTI</legend>
 
             <select name="mbti" id="mbti">
                 <optgroup label="Introverts">
@@ -52,7 +56,7 @@
         </fieldset>
     
         <fieldset class="choose fur-color">
-            <legend>Fur Color:</legend>
+            <legend>Fur Color<span>*</span></legend>
     
             <div>
                 <input type="checkbox" name="fur-color" id="black" value="black">
@@ -86,7 +90,7 @@
         </fieldset>
     
         <fieldset class="choose food">
-            <legend>Preferred Food:</legend>
+            <legend>Preferred Food<span>*</span></legend>
     
             <div>
                 <input type="radio" name="food" id="frisky-bitz" value="frisky-bitz">
