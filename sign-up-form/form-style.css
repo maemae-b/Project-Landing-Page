@@ -16,7 +16,7 @@ html {
     --lightgrey: #d9dbdd;
     --offwhite: #F9FAF8;
 
-    --big: 3rem;
+    --big: 2.3rem;
     --medium: 1.5rem;
     --small: 1.2rem;
 }
@@ -102,6 +102,7 @@ fieldset.choose > select {
     background-color: var(--orange);
     color: var(--offwhite);
     border: solid 3px var(--orange);
+    font-size: var(--small);
 
     padding: 0.7rem;
     margin: 0 auto;
