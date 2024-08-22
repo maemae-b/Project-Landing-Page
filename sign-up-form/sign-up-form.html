@@ -9,22 +9,22 @@
 </head>
 <body>
     <div class="notice">
-        <h1>So you want to be part of the cause, huh.</h1>
+        <h1>So you want to be part of the cause...</h1>
         <h3>kindly fill in the following form.</h3>        
         <p>dis is to improve your experience as a future member :3</p>
     </div>
     <form action="./form-results.js" method="post">
-        <div>
+        <div class="choose">
             <label for="nickname">Nickname:</label>
             <input type="text" id="nickname" name="nickname" placeholder="Mingming">
         </div>
         
-        <div>
+        <div class="choose">
             <label for="dob">Bday:</label>
             <input type="date" id="dob" name="dob">
         </div>
     
-        <fieldset>
+        <fieldset class="choose">
             <legend>MBTI:</legend>
 
             <select name="mbti" id="mbti">
@@ -51,7 +51,7 @@
             </select>
         </fieldset>
     
-        <fieldset>
+        <fieldset class="choose fur-color">
             <legend>Fur Color:</legend>
     
             <div>
@@ -85,7 +85,7 @@
             </div>
         </fieldset>
     
-        <fieldset>
+        <fieldset class="choose food">
             <legend>Preferred Food:</legend>
     
             <div>
@@ -113,6 +113,8 @@
                 <label for="sashimi">Sashimi</label>
             </div>
         </fieldset>
+
+        <button class="submit">Submit</button>
     </form>
 </body>
 </html>
