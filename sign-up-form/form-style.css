@@ -29,7 +29,7 @@ body {
     background-color: var(--darkbrown);
 
     padding: 4rem;
-    max-width: 100rem;
+    max-width: min(80rem, 80vw);
     margin: 0 auto;
 
     text-align: center;
@@ -48,7 +48,7 @@ form {
     color: var(--darkbrown);
     background-color: var(--offwhite);
 
-    max-width: 100rem;
+    max-width: min(80rem, 80vw);
     margin: 0 auto;
     padding: 2rem clamp(4rem, 20vw ,18rem);
 }
