@@ -119,7 +119,8 @@ fieldset.choose > select {
 .submit:hover {
     background-color: var(--offwhite);
     color: var(--darkbrown);
-    border: solid 3px var(--orange)
+    border: solid 3px var(--orange);
+    cursor: pointer;
 }
 
 .choose {
