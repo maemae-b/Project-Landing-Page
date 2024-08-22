@@ -15,6 +15,10 @@ html {
     --darkgreen: #464b2a;
     --lightgrey: #d9dbdd;
     --offwhite: #F9FAF8;
+
+    --big: 3rem;
+    --medium: 1.5rem;
+    --small: 1.2rem;
 }
 
 body {
@@ -22,6 +26,14 @@ body {
 
     margin: 0;
     padding: 2rem 2.5rem;
+}
+
+h1 {font-size: var(--big);}
+h3 {font-size: var(--medium);}
+legend {font-size: var(--small);}
+
+@media (min-width: calc((800/16)*1rem)) {
+    legend {font-size: var(--medium);}
 }
 
 .notice {
@@ -98,4 +110,8 @@ fieldset.choose > select {
 label > span,
 legend > span {
     color: red;
+}
+
+input:invalid {
+    border: solid 1px red;
 }
